@@ -103,7 +103,7 @@ public class Locations implements Map<Integer, Location> {
             return locations.entrySet();
       }
 
-      public static void main(String[] args) {
+      public static void main(String[] args) throws IOException {
             FileWriter locFile = null;
             try {
                   locFile = new FileWriter("locations.txt");
